@@ -1,0 +1,95 @@
+.head{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    align-content: center;
+   
+}
+body{
+    background-color: pink;
+    background-size: cover;
+    background-image: url(Love.jpg);
+}
+#do{
+    color:white;
+    font-size: 5rem;
+}
+
+.box1{
+    height: 200px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    font-size: medium;
+    align-content: center;
+}
+.box2{
+    height: 100px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    font-size: medium;
+    align-content: center;
+}
+#box1{
+    height: 30px;
+    font-weight: bold;
+}
+#box2{
+    height: 30px;
+    font-weight: bold;
+}
+.box{
+    display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            margin-top: 50px;
+            font-weight: bolder;
+            color: white;
+            text-align: center;
+          
+            
+}
+
+.para{
+    
+    font-size: x-large;
+    color: rgb(83, 7, 7);
+    font-weight: bold;
+}
+
+    
+
+
+.button{
+    display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+           background-color: red;
+            font-weight: bolder;
+            color: white; 
+}
+
+.image{
+    display: flex;
+    justify-content:space-evenly; /* Adds space between items */
+    gap: 15px; 
+    flex-wrap: wrap;
+}
+.gallery{
+    color: beige;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#texting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 2%;
+    font-weight: bolder;
+    color: red;
+    text-align: center;
+    font-size: 3rem;
+}
